@@ -17,3 +17,12 @@ To set up the project on your local machine, follow these steps:
    ```bash
    git clone https://github.com/securesoph/sophsidscript.git
    cd sophsidscript
+
+2. **Install Dependencies:**
+
+Ensure you have Python and pip installed. Install the required Python packages using:
+pip install -r requirements.txt
+
+3. **Run the IDS and Web Server:**
+python sophsidscript.py
+
