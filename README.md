@@ -23,6 +23,12 @@ To set up the project on your local machine, follow these steps:
 Ensure you have Python and pip installed. Install the required Python packages using:
 pip install -r requirements.txt
 
-3. **Run the IDS and Web Server:**
+3. **Usage:**
+To start the IDS and the web server:
+
+- Run the IDS and Web Server:
 python sophsidscript.py
 
+- View Alerts:
+
+Open your web browser and navigate to http://localhost:5000 to view the IDS alerts.
