@@ -32,3 +32,20 @@ python sophsidscript.py
 - View Alerts:
 
 Open your web browser and navigate to http://localhost:5000 to view the IDS alerts.
+
+**Code Overview:**
+The project includes the following key components:
+
+- Packet Detection: Uses Scapy to detect packets and log any suspicious activity related to predefined ports.
+- Alert Management: Logs alerts to ids.log and alerts.txt, and displays them via a Flask web application.
+- Web Interface: A simple Flask app renders the alerts in a user-friendly format.
+
+**Contributing**
+Contributions are welcome! To contribute:
+
+- Fork the Repository.
+- Create a Feature Branch.
+- Submit a Pull Request with your improvements.
+
+**License:**
+This project is licensed under the MIT License - see the LICENSE file for details.
