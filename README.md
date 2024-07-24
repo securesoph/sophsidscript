@@ -1,22 +1,19 @@
-Project Title:
-Soph's Intrusion Detection System (IDS)
+# Soph's Intrusion Detection System (IDS) 🚨🛡️
 
-Description:
-This project implements an Intrusion Detection System (IDS) using Python and Flask. It monitors network traffic for suspicious port activity and logs alerts. It also provides a web interface to view these alerts in real-time.
+Welcome to Soph's Intrusion Detection System (IDS)! This Python and Flask-based project is designed to monitor network traffic for suspicious activity and provide real-time alerts through a web interface.
 
-Installation (Clone the repository):
-git clone https://github.com/securesoph/sophsidscript.git 
-cd sophsidscript
+## Features
 
-Install dependencies:
-pip install -r requirements.txt
+- **Network Traffic Monitoring**: Continuously scans network traffic for suspicious port activity.
+- **Real-Time Alerts**: Logs alerts for detected suspicious activities and displays them through a web interface.
+- **Web Interface**: Access alerts in real-time via a simple web interface at `http://localhost:5000`.
 
-Usage (Start the IDS and web server):
-python sophsidscript.py
-Navigate to http://localhost:5000 in your web browser to view IDS alerts.
+## Installation
 
-Contributing:
-Contributions are welcome! Please fork the repository and submit pull requests with your improvements.
+To set up the project on your local machine, follow these steps:
 
-License:
-This project is licensed under the MIT License - see the LICENSE file for details.
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/securesoph/sophsidscript.git
+   cd sophsidscript
