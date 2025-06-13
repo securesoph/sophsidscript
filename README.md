@@ -1,4 +1,4 @@
-# 🛡️ Soph's Intrusion Detection System (IDS) 🚨  
+# 🛡️ Soph's Intrusion Detection System (IDS) 🚨  i
 *Real-Time Python + Flask-Based Network Threat Monitor*
 
 Welcome to **Soph's IDS**, a lightweight Python tool designed to monitor your network traffic in real time, detect suspicious activity, and display alerts through a sleek web interface. Built with **Scapy** and **Flask**, this system helps identify potential intrusions as they happen.
