@@ -1,59 +1,36 @@
-# Soph's Intrusion Detection System (IDS) 🚨🛡️
+# 🛡️ Soph's Intrusion Detection System (IDS) 🚨  
+*Real-Time Python + Flask-Based Network Threat Monitor*
 
-Welcome to Soph's Intrusion Detection System (IDS)! This Python and Flask-based project is designed to monitor network traffic for suspicious activity and provide real-time alerts through a web interface.
+Welcome to **Soph's IDS**, a lightweight Python tool designed to monitor your network traffic in real time, detect suspicious activity, and display alerts through a sleek web interface. Built with **Scapy** and **Flask**, this system helps identify potential intrusions as they happen.
 
-## Features:
+---
 
-- **Network Traffic Monitoring**: Continuously scans network traffic for suspicious port activity.
-- **Real-Time Alerts**: Logs alerts for detected suspicious activities and displays them through a web interface.
-- **Web Interface**: Access alerts in real-time via a simple web interface at `http://localhost:5000`.
+## 🔍 Features
 
-## Demo Video:
+- **📡 Network Monitoring** – Continuously scans live network traffic for suspicious ports
+- **⚠️ Real-Time Alerts** – Logs threats to files and displays them instantly on the dashboard
+- **🌐 Web Interface** – Accessible at `http://localhost:5000` for a simple, clean experience
 
-Wanna see it in action?  
-👉 [Watch the SentinelShield Demo on Google Drive](https://drive.google.com/file/d/10Pjt98Uj2OGhD6k2h23FuiohNBqyVXy-/view?usp=drive_link)
+---
 
-This video walks through how to run the script, choose a network interface, and access the live dashboard with real-time alerts.
+## 🎥 Demo Video
 
+Wanna see it in action? 👀  
+👉 [Watch the SentinelShield Demo](https://drive.google.com/file/d/10Pjt98Uj2OGhD6k2h23FuiohNBqyVXy-/view?usp=drive_link)
 
-## Installation:
+This walkthrough shows how to launch the scanner, select an interface, and monitor threats through the dashboard.
 
-To set up the project on your local machine, follow these steps:
+---
 
-1. **Clone the Repository:**
+## ⚙️ Installation
 
-   ```bash
-   git clone https://github.com/securesoph/sophsidscript.git
-   cd sophsidscript
+Follow these steps to run it locally:
 
-2. **Install Dependencies:**
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/securesoph/sophsidscript.git
+cd sophsidscript
 
-Ensure you have Python and pip installed. Install the required Python packages using:
-pip install -r requirements.txt
-
-3. **Usage:**
-To start the IDS and the web server:
-
-- Run the IDS and Web Server:
-python sophsidscript.py
-
-- View Alerts:
-
-Open your web browser and navigate to http://localhost:5000 to view the IDS alerts.
-
-**Code Overview:**
-The project includes the following key components:
-
-- Packet Detection: Uses Scapy to detect packets and log any suspicious activity related to predefined ports.
-- Alert Management: Logs alerts to ids.log and alerts.txt, and displays them via a Flask web application.
-- Web Interface: A simple Flask app renders the alerts in a user-friendly format.
-
-**Contributing**
-Contributions are welcome! To contribute:
-
-- Fork the Repository.
-- Create a Feature Branch.
-- Submit a Pull Request with your improvements.
 
 **License:**
 This project is licensed under the MIT License - see the LICENSE file for details.
