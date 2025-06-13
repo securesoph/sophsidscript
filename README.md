@@ -2,13 +2,21 @@
 
 Welcome to Soph's Intrusion Detection System (IDS)! This Python and Flask-based project is designed to monitor network traffic for suspicious activity and provide real-time alerts through a web interface.
 
-## Features
+## Features:
 
 - **Network Traffic Monitoring**: Continuously scans network traffic for suspicious port activity.
 - **Real-Time Alerts**: Logs alerts for detected suspicious activities and displays them through a web interface.
 - **Web Interface**: Access alerts in real-time via a simple web interface at `http://localhost:5000`.
 
-## Installation
+## Demo Video:
+
+Wanna see it in action?  
+👉 [Watch the SentinelShield Demo on Google Drive](https://drive.google.com/file/d/10Pjt98Uj2OGhD6k2h23FuiohNBqyVXy-/view?usp=drive_link)
+
+This video walks through how to run the script, choose a network interface, and access the live dashboard with real-time alerts.
+
+
+## Installation:
 
 To set up the project on your local machine, follow these steps:
 
