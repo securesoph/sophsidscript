@@ -1,4 +1,4 @@
-# 🛡️ Soph's Intrusion Detection System (IDS) 🚨  
+# 🛡️ SentinelShield (Intrusion Detection System Project) 🚨  
 *Real-Time Python + Flask-Based Network Threat Monitor*
 
 Welcome to **Soph's IDS**, a lightweight Python tool designed to monitor your network traffic in real time, detect suspicious activity, and display alerts through a sleek web interface. Built with **Scapy** and **Flask**, this system helps identify potential intrusions as they happen.
@@ -30,7 +30,3 @@ Follow these steps to run it locally:
 ```bash
 git clone https://github.com/securesoph/sophsidscript.git
 cd sophsidscript
-
-
-**License:**
-This project is licensed under the MIT License - see the LICENSE file for details.
